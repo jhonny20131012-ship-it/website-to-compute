@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planes de Alimentación y Pérdida de Peso</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+    header { background: #ff6f61; color: white; padding: 20px; text-align: center; }
+    section { padding: 20px; max-width: 900px; margin: auto; background: white; margin-bottom: 20px; border-radius: 8px; }
+    h2 { color: #ff6f61; }
+    a { color: #007bff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
+    .video-container iframe { position: absolute; top:0; left:0; width:100%; height:100%; }
+    .plan { margin-bottom: 15px; }
+    .buy-link { background: #ff6f61; color: white; padding: 10px 15px; border-radius: 5px; display: inline-block; margin-top: 5px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Planes de Alimentación y Pérdida de Peso</h1>
+</header>
+
+<section>
+  <h2>Plan Básico</h2>
+  <p>Descripción del plan básico, ideal para principiantes.</p>
+  <a class="buy-link" href="https://tulinkdecompra.com">Comprar Plan</a>
+</section>
+
+<section>
+  <h2>Plan Avanzado</h2>
+  <p>Plan avanzado para quienes quieren resultados más rápidos.</p>
+  <a class="buy-link" href="https://tulinkdecompra.com">Comprar Plan</a>
+</section>
+
+<section>
+  <h2>Videos de Ejercicios</h2>
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/TuVideoID" frameborder="0" allowfullscreen></iframe>
+  </div>
+</section>
+
+<section>
+  <h2>Contacto</h2>
+  <p>Puedes contactarme por email: <a href="mailto:tuemail@ejemplo.com">tuemail@ejemplo.com</a></p>
+</section>
+
+</body>
+</html>
